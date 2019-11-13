@@ -1,0 +1,41 @@
+{
+  "app": {
+    "name": "业务框架",
+    "port": 20000,
+    "wsPort": 20001,
+    "version": "v1.0.0"
+  },
+  "tls": {
+    "crt": "",
+    "key": ""
+  },
+  "database": {
+    "host": "192.168.0.245:3306",
+    "name": "xxx",
+    "account": "xjl",
+    "password": "xjl383"
+  },
+  "redis": {
+    "host": "192.168.0.245:6379",
+    "password": "xjl383",
+    "db": 0
+  },
+  "file": {
+    "type": "fileCamp",
+    "host": "http://192.168.0.245:23000",
+    "down": "http://192.168.0.245:23001",
+    "password": "4ufcF2RxE8HUGkonQlrwJzqXd6PSYMIa",
+    "ext": ""
+  },
+  "preview": {
+    "host": "http://192.168.0.245:23002",
+    "password": "",
+    "ext": ""
+  },
+  "log": {
+    "type": "file",
+    "errorEmailOn": false,
+    "errorEmailAddr": "339799232@qq.com"
+  },
+  "msgRouter": "http://192.168.0.245:5223"
+}
