@@ -10,25 +10,25 @@
     "key": ""
   },
   "database": {
-    "host": "192.168.0.245:3306",
+    "host": "127.0.0.1:3306",
     "name": "xxx",
-    "account": "xjl",
-    "password": "xjl383"
+    "account": "xxx",
+    "password": "xxx"
   },
   "redis": {
-    "host": "192.168.0.245:6379",
-    "password": "xjl383",
+    "host": "127.0.0.1:6379",
+    "password": "xxx",
     "db": 0
   },
   "file": {
     "type": "fileCamp",
-    "host": "http://192.168.0.245:23000",
-    "down": "http://192.168.0.245:23001",
-    "password": "4ufcF2RxE8HUGkonQlrwJzqXd6PSYMIa",
+    "host": "http://127.0.0.1:23000",
+    "down": "http://127.0.0.1:23001",
+    "password": "xxx",
     "ext": ""
   },
   "preview": {
-    "host": "http://192.168.0.245:23002",
+    "host": "http://127.0.0.1:23002",
     "password": "",
     "ext": ""
   },
@@ -37,5 +37,5 @@
     "errorEmailOn": false,
     "errorEmailAddr": "339799232@qq.com"
   },
-  "msgRouter": "http://192.168.0.245:5223"
+  "msgRouter": "http://127.0.0.1:5223"
 }
